@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-07-05T20:12:00.139584",
+  "dataset_path": "C:\\Users\\kunya\\PycharmProjects\\Sol_Dash\\general_sol_tokens_last30d.csv",
+  "model_path": "C:\\Users\\kunya\\PycharmProjects\\Sol_Dash\\ensemble_model.pt",
+  "dataset_shape": "52 samples, 54 features",
+  "train_test_split": "Train: 41, Test: 11",
+  "feature_names": [
+    "token_age_hours",
+    "current_price_usd",
+    "market_cap_usd",
+    "price_change_1h",
+    "price_change_6h",
+    "price_change_24h",
+    "volume_change_1h",
+    "volume_change_6h",
+    "volume_change_24h",
+    "buy_tx_count",
+    "sell_tx_count",
+    "buy_sell_ratio",
+    "unique_wallet_count",
+    "wallet_growth_24h",
+    "top10_holder_ratio",
+    "liquidity_depth_usd",
+    "mint_authority_flag",
+    "freeze_authority_flag",
+    "token_age_hours_rolling_mean",
+    "token_age_hours_rolling_std",
+    "current_price_usd_rolling_mean",
+    "current_price_usd_rolling_std",
+    "market_cap_usd_rolling_mean",
+    "market_cap_usd_rolling_std",
+    "price_change_1h_rolling_mean",
+    "price_change_1h_rolling_std",
+    "price_change_6h_rolling_mean",
+    "price_change_6h_rolling_std",
+    "price_change_24h_rolling_mean",
+    "price_change_24h_rolling_std",
+    "volume_change_1h_rolling_mean",
+    "volume_change_1h_rolling_std",
+    "volume_change_6h_rolling_mean",
+    "volume_change_6h_rolling_std",
+    "volume_change_24h_rolling_mean",
+    "volume_change_24h_rolling_std",
+    "buy_tx_count_rolling_mean",
+    "buy_tx_count_rolling_std",
+    "sell_tx_count_rolling_mean",
+    "sell_tx_count_rolling_std",
+    "buy_sell_ratio_rolling_mean",
+    "buy_sell_ratio_rolling_std",
+    "unique_wallet_count_rolling_mean",
+    "unique_wallet_count_rolling_std",
+    "wallet_growth_24h_rolling_mean",
+    "wallet_growth_24h_rolling_std",
+    "top10_holder_ratio_rolling_mean",
+    "top10_holder_ratio_rolling_std",
+    "liquidity_depth_usd_rolling_mean",
+    "liquidity_depth_usd_rolling_std",
+    "mint_authority_flag_rolling_mean",
+    "mint_authority_flag_rolling_std",
+    "freeze_authority_flag_rolling_mean",
+    "freeze_authority_flag_rolling_std"
+  ],
+  "results": {
+    "feature_importance": {
+      "tree_based": "price_change_1h_rolling_mean          0.075512\nprice_change_24h                      0.063112\nprice_change_1h                       0.050029\ntoken_age_hours_rolling_std           0.037171\nprice_change_6h                       0.032250\nvolume_change_1h                      0.028062\nvolume_change_6h                      0.027793\nprice_change_24h_rolling_mean         0.025583\ncurrent_price_usd_rolling_mean        0.025276\nvolume_change_6h_rolling_std          0.024865\ntoken_age_hours_rolling_mean          0.024737\ntop10_holder_ratio                    0.024621\nprice_change_1h_rolling_std           0.024116\nvolume_change_24h                     0.024005\ncurrent_price_usd_rolling_std         0.023890\nunique_wallet_count                   0.022684\nprice_change_6h_rolling_mean          0.020817\nunique_wallet_count_rolling_std       0.020517\nmarket_cap_usd_rolling_std            0.019916\nbuy_tx_count_rolling_mean             0.019862\nsell_tx_count_rolling_std             0.019421\nwallet_growth_24h_rolling_std         0.018907\nliquidity_depth_usd_rolling_std       0.017900\nprice_change_24h_rolling_std          0.017651\ncurrent_price_usd                     0.017270\nbuy_tx_count                          0.016957\nvolume_change_1h_rolling_std          0.016452\nsell_tx_count_rolling_mean            0.015830\nvolume_change_6h_rolling_mean         0.015703\nvolume_change_24h_rolling_std         0.015500\nunique_wallet_count_rolling_mean      0.015259\nprice_change_6h_rolling_std           0.014613\nmarket_cap_usd                        0.014322\nwallet_growth_24h_rolling_mean        0.014299\nmarket_cap_usd_rolling_mean           0.014048\nsell_tx_count                         0.013569\ntop10_holder_ratio_rolling_mean       0.012419\ntoken_age_hours                       0.012101\nbuy_tx_count_rolling_std              0.011380\ntop10_holder_ratio_rolling_std        0.011152\nliquidity_depth_usd_rolling_mean      0.010086\nfreeze_authority_flag_rolling_mean    0.010057\nliquidity_depth_usd                   0.010027\nvolume_change_1h_rolling_mean         0.009811\nvolume_change_24h_rolling_mean        0.009562\nwallet_growth_24h                     0.007930\nmint_authority_flag_rolling_mean      0.007288\nmint_authority_flag_rolling_std       0.005242\nfreeze_authority_flag_rolling_std     0.004349\nfreeze_authority_flag                 0.003135\nmint_authority_flag                   0.002940\nbuy_sell_ratio                        0.000000\nbuy_sell_ratio_rolling_mean           0.000000\nbuy_sell_ratio_rolling_std            0.000000\ndtype: float64"
+    },
+    "shap_values": "[[[-0.00473635  0.00473635]\n  [ 0.00141383 -0.00141383]\n  [ 0.00696195 -0.00696195]\n  ...\n  [ 0.00652984 -0.00652984]\n  [-0.000931    0.000931  ]\n  [ 0.0059769  -0.0059769 ]]\n\n [[-0.00355972  0.00355972]\n  [ 0.00075905 -0.00075905]\n  [ 0.00218184 -0.00218184]\n  ...\n  [-0.00289211  0.00289211]\n  [-0.00201801  0.00201801]\n  [-0.00461819  0.00461819]]\n\n [[-0.00394474  0.00394474]\n  [ 0.00522822 -0.00522822]\n  [ 0.00342032 -0.00342032]\n  ...\n  [-0.00136933  0.00136933]\n  [-0.00382676  0.00382676]\n  [-0.0032826   0.0032826 ]]\n\n ...\n\n [[ 0.00303828 -0.00303828]\n  [ 0.00019169 -0.00019169]\n  [-0.00170332  0.00170332]\n  ...\n  [-0.00333567  0.00333567]\n  [-0.00341078  0.00341078]\n  [-0.00236316  0.00236316]]\n\n [[-0.00685916  0.00685916]\n  [-0.00910077  0.00910077]\n  [ 0.00660318 -0.00660318]\n  ...\n  [-0.00152519  0.00152519]\n  [-0.00198588  0.00198588]\n  [-0.00346284  0.00346284]]\n\n [[-0.0015215   0.0015215 ]\n  [-0.0046884   0.0046884 ]\n  [-0.00020287  0.00020287]\n  ...\n  [ 0.00449878 -0.00449878]\n  [-0.00534633  0.00534633]\n  [ 0.00577735 -0.00577735]]]",
+    "lime_explanations": {},
+    "permutation_importance": "token_age_hours_rolling_std           0.172727\nprice_change_1h_rolling_std           0.145455\ntoken_age_hours                       0.090909\nvolume_change_1h                      0.090909\nwallet_growth_24h_rolling_mean        0.090909\ntop10_holder_ratio                    0.072727\nfreeze_authority_flag_rolling_std     0.072727\nsell_tx_count_rolling_std             0.072727\nunique_wallet_count_rolling_mean      0.072727\nmarket_cap_usd_rolling_mean           0.063636\ncurrent_price_usd_rolling_std         0.063636\nprice_change_1h_rolling_mean          0.063636\nprice_change_1h                       0.054545\nmint_authority_flag                   0.045455\nprice_change_24h_rolling_mean         0.045455\nfreeze_authority_flag                 0.045455\nmint_authority_flag_rolling_std       0.045455\nvolume_change_24h_rolling_mean        0.045455\nsell_tx_count                         0.036364\nprice_change_6h_rolling_mean          0.036364\nsell_tx_count_rolling_mean            0.027273\ncurrent_price_usd                     0.027273\nvolume_change_1h_rolling_std          0.027273\nvolume_change_6h_rolling_mean         0.027273\nwallet_growth_24h                     0.018182\nvolume_change_6h                      0.018182\nprice_change_24h_rolling_std          0.018182\nunique_wallet_count_rolling_std       0.018182\nvolume_change_24h_rolling_std         0.009091\nprice_change_24h                      0.009091\nmarket_cap_usd                        0.000000\ntoken_age_hours_rolling_mean          0.000000\nliquidity_depth_usd                   0.000000\nunique_wallet_count                   0.000000\nbuy_tx_count                          0.000000\nvolume_change_24h                     0.000000\nbuy_sell_ratio                        0.000000\nprice_change_6h                       0.000000\ncurrent_price_usd_rolling_mean        0.000000\nbuy_tx_count_rolling_mean             0.000000\nbuy_tx_count_rolling_std              0.000000\nvolume_change_6h_rolling_std          0.000000\nmarket_cap_usd_rolling_std            0.000000\nprice_change_6h_rolling_std           0.000000\nvolume_change_1h_rolling_mean         0.000000\nbuy_sell_ratio_rolling_mean           0.000000\nwallet_growth_24h_rolling_std         0.000000\nbuy_sell_ratio_rolling_std            0.000000\ntop10_holder_ratio_rolling_mean       0.000000\ntop10_holder_ratio_rolling_std        0.000000\nliquidity_depth_usd_rolling_std       0.000000\nliquidity_depth_usd_rolling_mean      0.000000\nmint_authority_flag_rolling_mean      0.000000\nfreeze_authority_flag_rolling_mean    0.000000\ndtype: float64",
+    "model_performance": {
+      "classification_report": {
+        "0": {
+          "precision": 0.625,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.7142857142857143,
+          "support": 6.0
+        },
+        "1": {
+          "precision": 0.6666666666666666,
+          "recall": 0.4,
+          "f1-score": 0.5,
+          "support": 5.0
+        },
+        "accuracy": 0.6363636363636364,
+        "macro avg": {
+          "precision": 0.6458333333333333,
+          "recall": 0.6166666666666667,
+          "f1-score": 0.6071428571428572,
+          "support": 11.0
+        },
+        "weighted avg": {
+          "precision": 0.6439393939393939,
+          "recall": 0.6363636363636364,
+          "f1-score": 0.6168831168831169,
+          "support": 11.0
+        }
+      }
+    }
+  }
+}

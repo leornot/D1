@@ -3,3 +3,10 @@ pandas
 numpy
 plotly
 torch
+matplotlib
+seaborn
+xgboost
+lightgbm
+scikit-learn
+lime
+shap
